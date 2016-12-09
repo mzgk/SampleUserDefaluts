@@ -16,3 +16,7 @@
 - 実装したメソッドは、それぞれ以下を経由して呼びだされる
   - シリアライズ：NSKeyedArchiver.archivedData(withRootObject: 独自クラスインスタンス)
   - デシリアライズ：NSKeyedUnarchiver.unarchiveObject(with: デシリアライズ対象のデータ as Data)
+
+
+# 参考
+- http://dev.classmethod.jp/smartphone/swift-3-0-userdefaults/
